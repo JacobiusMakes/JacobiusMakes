@@ -20,6 +20,7 @@ A full ecosystem of tools built around Linagora's open-source collaboration plat
 | [twake-linto-bridge](https://github.com/JacobiusMakes/twake-linto-bridge) | Voice transcription bridge — LinTO speech-to-text → Twake Chat threaded replies |
 | [twake-migrate](https://github.com/JacobiusMakes/twake-migrate) | Migration tool — Slack → Matrix, Google Workspace → JMAP/Cozy |
 | [twake-dashboard](https://github.com/JacobiusMakes/twake-dashboard) | Web search UI — visual frontend for twake-search with demo mode, source filtering |
+| [twake-monitor](https://github.com/JacobiusMakes/twake-monitor) | Health check + uptime monitor — probes 5 real Twake endpoints, Prometheus metrics, TLS cert expiry |
 
 ---
 
@@ -37,6 +38,8 @@ A full ecosystem of tools built around Linagora's open-source collaboration plat
 | [#920](https://github.com/linagora/twake-drive-legacy/pull/920) | twake-drive-legacy | `fix`: NaN date display in file browser |
 | [#919](https://github.com/linagora/twake-drive-legacy/pull/919) | twake-drive-legacy | `fix`: password visible as plaintext on shared link input |
 | [#78](https://github.com/linagora/jmap-client-ts/pull/78) | jmap-client-ts | `fix`: upgrade axios + node-fetch to resolve 4 high-severity CVEs |
+| [#349](https://github.com/linagora/ToM-server/pull/349) | ToM-server | `fix`: graceful fallback when LDAP URI is missing — prevents server crash on startup |
+| [#722](https://github.com/linagora/twake-calendar-frontend/pull/722) | twake-calendar-frontend | `fix`: type-safe window config replacing `(window as any)` globals |
 
 ### Hugging Face
 
