@@ -52,6 +52,18 @@ A full ecosystem of tools built around Linagora's open-source collaboration plat
 | [#936](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/936) | ffmpeg.wasm | `feat`: restore Node.js support via `worker_threads` — mirrors browser API, resolves #897 |
 | [#937](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/937) | ffmpeg.wasm | `feat`: allow passing binary WASM data directly to `FFmpeg.load()` — no CDN required |
 
+### Scaleway
+
+| PR | Repo | Description |
+|----|------|-------------|
+| [#2860](https://github.com/scaleway/scaleway-sdk-js/pull/2860) | scaleway-sdk-js | `feat`: async config loading + file permission security check |
+
+### Mistral AI
+
+| PR | Repo | Description |
+|----|------|-------------|
+| [#200](https://github.com/mistralai/client-ts/pull/200) | client-ts | `fix`: graceful handling of malformed JSON in structured output parsing |
+
 ---
 
 ## Stack
