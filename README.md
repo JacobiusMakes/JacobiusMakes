@@ -47,6 +47,7 @@ A full ecosystem of tools built around Linagora's open-source collaboration plat
 
 | PR | Repo | Description |
 |----|------|-------------|
+| [#938](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/938) | ffmpeg.wasm | `fix`: AbortSignal actually cancels running WASM exec via `setTimeout(1)` — resolves #719 |
 | [#936](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/936) | ffmpeg.wasm | `feat`: restore Node.js support via `worker_threads` — mirrors browser API, resolves #897 |
 | [#937](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/937) | ffmpeg.wasm | `feat`: allow passing binary WASM data directly to `FFmpeg.load()` — no CDN required |
 
