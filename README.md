@@ -19,6 +19,7 @@ A full ecosystem of tools built around Linagora's open-source collaboration plat
 | [twake-notify](https://github.com/JacobiusMakes/twake-notify) | Email-to-chat bridge — JMAP inbox alerts posted to Matrix rooms |
 | [twake-linto-bridge](https://github.com/JacobiusMakes/twake-linto-bridge) | Voice transcription bridge — LinTO speech-to-text → Twake Chat threaded replies |
 | [twake-migrate](https://github.com/JacobiusMakes/twake-migrate) | Migration tool — Slack → Matrix, Google Workspace → JMAP/Cozy |
+| [twake-dashboard](https://github.com/JacobiusMakes/twake-dashboard) | Web search UI — visual frontend for twake-search with demo mode, source filtering |
 
 ---
 
