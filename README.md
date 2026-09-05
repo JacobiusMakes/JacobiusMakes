@@ -4,6 +4,49 @@
 
 ---
 
+## ParlayAPI: real-time sports odds for developers and AI agents
+
+[ParlayAPI](https://parlay-api.com) is a real-time sports odds API I built and run: 30+ sportsbooks, 90+ sport keys, player props, arbitrage detection, prediction markets, and closing lines with continuous history from 2005. The free tier is 1,000 credits per month, no card required, and the keyless demo endpoint (`GET https://parlay-api.com/v1/try/{sport}/odds`) needs no account at all. Start with the [docs](https://parlay-api.com/docs), [pricing](https://parlay-api.com/pricing), or the [MCP page](https://parlay-api.com/mcp).
+
+Everything below is open source and works with the free tier.
+
+**For agent builders**
+
+| Repo | What it gives you |
+|------|-------------------|
+| [parlay-api-mcp](https://github.com/JacobiusMakes/parlay-api-mcp) | MCP server: live odds, props, and arbitrage as 22 tools in Claude, Cursor, or any MCP client. Hosted endpoint, no install: `POST https://parlay-api.com/mcp/http` |
+| [parlayapi-agent-tools](https://github.com/JacobiusMakes/parlayapi-agent-tools) | Ready made odds tools for LangChain, LlamaIndex, and raw OpenAI/Anthropic function calling |
+
+**For data people**
+
+| Repo | What it gives you |
+|------|-------------------|
+| [sports-odds-datasets](https://github.com/JacobiusMakes/sports-odds-datasets) | Free datasets of real sportsbook closing lines, exported from production. CC BY 4.0 |
+| [parlayapi-notebooks](https://github.com/JacobiusMakes/parlayapi-notebooks) | Jupyter notebooks: no-vig pricing, EV, line movement, closing line value. One click Open in Colab |
+| [betting-model-starter](https://github.com/JacobiusMakes/betting-model-starter) | Template for a betting model: fetch odds and props, devig, scan edges, backtest closing line value |
+| [parlayapiR](https://github.com/JacobiusMakes/parlayapiR) | R client with devigging and Kelly sizing, keyless sandbox mode |
+| [awesome-sports-betting-data](https://github.com/JacobiusMakes/awesome-sports-betting-data) | Curated map of the whole space: odds APIs, historical datasets, tools, communities |
+
+**For integrators**
+
+| Repo | What it gives you |
+|------|-------------------|
+| [parlay-api-python](https://github.com/JacobiusMakes/parlay-api-python) | Python SDK: `pip install parlay-api` |
+| [parlay-api-js](https://github.com/JacobiusMakes/parlay-api-js) | JavaScript/TypeScript SDK, zero dependencies |
+| [parlayapi-collections](https://github.com/JacobiusMakes/parlayapi-collections) | Ready-to-import collections for Bruno, Postman, Insomnia, and HTTPie |
+| [parlayapi-odds-action](https://github.com/JacobiusMakes/parlayapi-odds-action) | GitHub Action that pulls odds into JSON or CSV on a cron |
+| [parlayapi-sheets](https://github.com/JacobiusMakes/parlayapi-sheets) | Live odds, line shopping, and devig as Google Sheets formulas |
+| [parlayapi-discord-bot](https://github.com/JacobiusMakes/parlayapi-discord-bot) | Self-hostable Discord bot: lines, moves, and a parlay checker |
+| [parlayapi-raycast](https://github.com/JacobiusMakes/parlayapi-raycast) | Raycast extension: best available lines and betting math from your launcher |
+| [parlayapi-obs-overlay](https://github.com/JacobiusMakes/parlayapi-obs-overlay) | OBS best-line ticker for betting streamers, one HTML file, keyless |
+| [parlayapi-line-shopper](https://github.com/JacobiusMakes/parlayapi-line-shopper) | Shop the line from your terminal: every book's price per outcome |
+| [parlayapi-arb-scanner](https://github.com/JacobiusMakes/parlayapi-arb-scanner) | CLI arbitrage scanner, zero setup against keyless sandbox endpoints |
+| [parlay-api-arb-starter](https://github.com/JacobiusMakes/parlay-api-arb-starter) | Cross-book arbitrage in 130 lines of Python |
+
+Skeptics welcome: [odds-api-benchmarks](https://github.com/JacobiusMakes/odds-api-benchmarks) lets you rerun every published comparison number from your own machine, and [parlayapi-data-bounty](https://github.com/JacobiusMakes/parlayapi-data-bounty) pays free credits when you catch us serving a wrong line.
+
+---
+
 ## Twake Workplace Ecosystem
 
 A full ecosystem of tools built around Linagora's open-source collaboration platform — each project filling a real gap, built from scratch.
