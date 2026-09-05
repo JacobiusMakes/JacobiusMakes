@@ -1,4 +1,4 @@
-# Jacob Galperin — Node.js / Open Source
+# Jacob Galperin - Node.js / Open Source
 
 > Building open-source tooling for [Linagora](https://linagora.com)'s collaboration stack (Matrix · JMAP · Cozy · LinShare) while contributing upstream to the libraries I use.
 
@@ -14,6 +14,7 @@ Everything below is open source and works with the free tier.
 
 | Repo | What it gives you |
 |------|-------------------|
+| [parlayapi-betting-agent-starter](https://github.com/JacobiusMakes/parlayapi-betting-agent-starter) | The "how do I start" repo: live odds to no-vig fair lines, one marked hole for your model. One click in Colab or Codespaces, keyless |
 | [parlay-api-mcp](https://github.com/JacobiusMakes/parlay-api-mcp) | MCP server: live odds, props, and arbitrage as 22 tools in Claude, Cursor, or any MCP client. Hosted endpoint, no install: `POST https://parlay-api.com/mcp/http` |
 | [parlayapi-agent-tools](https://github.com/JacobiusMakes/parlayapi-agent-tools) | Ready made odds tools for LangChain, LlamaIndex, and raw OpenAI/Anthropic function calling |
 
@@ -49,21 +50,21 @@ Skeptics welcome: [odds-api-benchmarks](https://github.com/JacobiusMakes/odds-ap
 
 ## Twake Workplace Ecosystem
 
-A full ecosystem of tools built around Linagora's open-source collaboration platform — each project filling a real gap, built from scratch.
+A full ecosystem of tools built around Linagora's open-source collaboration platform - each project filling a real gap, built from scratch.
 
 | Project | What it does |
 |---------|-------------|
-| [twake-cli](https://github.com/JacobiusMakes/twake-cli) | Unified CLI for Twake — chat, mail, drive, share from your terminal. Matrix · JMAP · Cozy · LinShare |
-| [twake-automate](https://github.com/JacobiusMakes/twake-automate) | Workflow automation engine — event triggers, scheduled jobs, LUCIE AI actions |
-| [twake-search](https://github.com/JacobiusMakes/twake-search) | Server-side unified search across Chat + Mail + Drive — SQLite FTS5, REST API |
-| [twake-rag](https://github.com/JacobiusMakes/twake-rag) | RAG service for Drive documents — LUCIE LLM · transformers.js · vector embeddings |
-| [twake-tui](https://github.com/JacobiusMakes/twake-tui) | Terminal dashboard — real-time chat/mail/drive in one view, built with ink |
-| [twake-mcp](https://github.com/JacobiusMakes/twake-mcp) | MCP server — exposes Twake to any AI assistant (Claude, Cursor, etc.) |
-| [twake-notify](https://github.com/JacobiusMakes/twake-notify) | Email-to-chat bridge — JMAP inbox alerts posted to Matrix rooms |
-| [twake-linto-bridge](https://github.com/JacobiusMakes/twake-linto-bridge) | Voice transcription bridge — LinTO speech-to-text → Twake Chat threaded replies |
-| [twake-migrate](https://github.com/JacobiusMakes/twake-migrate) | Migration tool — Slack → Matrix, Google Workspace → JMAP/Cozy |
-| [twake-dashboard](https://github.com/JacobiusMakes/twake-dashboard) | Web search UI — visual frontend for twake-search with demo mode, source filtering |
-| [twake-monitor](https://github.com/JacobiusMakes/twake-monitor) | Health check + uptime monitor — probes 5 real Twake endpoints, Prometheus metrics, TLS cert expiry |
+| [twake-cli](https://github.com/JacobiusMakes/twake-cli) | Unified CLI for Twake - chat, mail, drive, share from your terminal. Matrix · JMAP · Cozy · LinShare |
+| [twake-automate](https://github.com/JacobiusMakes/twake-automate) | Workflow automation engine - event triggers, scheduled jobs, LUCIE AI actions |
+| [twake-search](https://github.com/JacobiusMakes/twake-search) | Server-side unified search across Chat + Mail + Drive - SQLite FTS5, REST API |
+| [twake-rag](https://github.com/JacobiusMakes/twake-rag) | RAG service for Drive documents - LUCIE LLM · transformers.js · vector embeddings |
+| [twake-tui](https://github.com/JacobiusMakes/twake-tui) | Terminal dashboard - real-time chat/mail/drive in one view, built with ink |
+| [twake-mcp](https://github.com/JacobiusMakes/twake-mcp) | MCP server - exposes Twake to any AI assistant (Claude, Cursor, etc.) |
+| [twake-notify](https://github.com/JacobiusMakes/twake-notify) | Email-to-chat bridge - JMAP inbox alerts posted to Matrix rooms |
+| [twake-linto-bridge](https://github.com/JacobiusMakes/twake-linto-bridge) | Voice transcription bridge - LinTO speech-to-text → Twake Chat threaded replies |
+| [twake-migrate](https://github.com/JacobiusMakes/twake-migrate) | Migration tool - Slack → Matrix, Google Workspace → JMAP/Cozy |
+| [twake-dashboard](https://github.com/JacobiusMakes/twake-dashboard) | Web search UI - visual frontend for twake-search with demo mode, source filtering |
+| [twake-monitor](https://github.com/JacobiusMakes/twake-monitor) | Health check + uptime monitor - probes 5 real Twake endpoints, Prometheus metrics, TLS cert expiry |
 
 ---
 
@@ -81,22 +82,22 @@ A full ecosystem of tools built around Linagora's open-source collaboration plat
 | [#920](https://github.com/linagora/twake-drive-legacy/pull/920) | twake-drive-legacy | `fix`: NaN date display in file browser |
 | [#919](https://github.com/linagora/twake-drive-legacy/pull/919) | twake-drive-legacy | `fix`: password visible as plaintext on shared link input |
 | [#78](https://github.com/linagora/jmap-client-ts/pull/78) | jmap-client-ts | `fix`: upgrade axios + node-fetch to resolve 4 high-severity CVEs |
-| [#349](https://github.com/linagora/ToM-server/pull/349) | ToM-server | `fix`: graceful fallback when LDAP URI is missing — prevents server crash on startup |
+| [#349](https://github.com/linagora/ToM-server/pull/349) | ToM-server | `fix`: graceful fallback when LDAP URI is missing - prevents server crash on startup |
 | [#722](https://github.com/linagora/twake-calendar-frontend/pull/722) | twake-calendar-frontend | `fix`: type-safe window config replacing `(window as any)` globals |
 
 ### Hugging Face
 
 | PR | Repo | Description |
 |----|------|-------------|
-| [#1609](https://github.com/huggingface/transformers.js/pull/1609) | transformers.js | `feat`: emit `progress_total` events from `PreTrainedModel.from_pretrained()` — aggregate download progress for multi-file models |
+| [#1609](https://github.com/huggingface/transformers.js/pull/1609) | transformers.js | `feat`: emit `progress_total` events from `PreTrainedModel.from_pretrained()` - aggregate download progress for multi-file models |
 
 ### ffmpeg.wasm
 
 | PR | Repo | Description |
 |----|------|-------------|
-| [#938](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/938) | ffmpeg.wasm | `fix`: AbortSignal actually cancels running WASM exec via `setTimeout(1)` — resolves #719 |
-| [#936](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/936) | ffmpeg.wasm | `feat`: restore Node.js support via `worker_threads` — mirrors browser API, resolves #897 |
-| [#937](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/937) | ffmpeg.wasm | `feat`: allow passing binary WASM data directly to `FFmpeg.load()` — no CDN required |
+| [#938](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/938) | ffmpeg.wasm | `fix`: AbortSignal actually cancels running WASM exec via `setTimeout(1)` - resolves #719 |
+| [#936](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/936) | ffmpeg.wasm | `feat`: restore Node.js support via `worker_threads` - mirrors browser API, resolves #897 |
+| [#937](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/937) | ffmpeg.wasm | `feat`: allow passing binary WASM data directly to `FFmpeg.load()` - no CDN required |
 
 ### Scaleway
 
