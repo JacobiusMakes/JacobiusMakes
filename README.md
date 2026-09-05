@@ -17,7 +17,6 @@ Everything below is open source and works with the free tier.
 | [parlayapi-betting-agent-starter](https://github.com/JacobiusMakes/parlayapi-betting-agent-starter) | The "how do I start" repo: live odds to no-vig fair lines, one marked hole for your model. One click in Colab or Codespaces, keyless |
 | [parlay-api-mcp](https://github.com/JacobiusMakes/parlay-api-mcp) | MCP server: live odds, props, and arbitrage as 22 tools in Claude, Cursor, or any MCP client. Hosted endpoint, no install: `POST https://parlay-api.com/mcp/http` |
 | [parlayapi-agent-tools](https://github.com/JacobiusMakes/parlayapi-agent-tools) | Ready made odds tools for LangChain, LlamaIndex, and raw OpenAI/Anthropic function calling |
-| [parlayapi-betting-agent-starter](https://github.com/JacobiusMakes/parlayapi-betting-agent-starter) | Betting agent starter: live moneylines in, no-vig fair lines out, one marked hole where your model goes. Runs keyless in Colab, Codespaces, or one git clone |
 
 **For data people**
 
