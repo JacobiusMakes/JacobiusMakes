@@ -22,7 +22,7 @@ If you're choosing a data provider, [compare two feeds on one fixture](https://g
 
 | Repo | What it gives you |
 |------|-------------------|
-| [sports-odds-datasets](https://github.com/JacobiusMakes/sports-odds-datasets) | Free datasets of real sportsbook closing lines, exported from production. CC BY 4.0 |
+| [Historical match odds notebook](https://github.com/JacobiusMakes/parlayapi-notebooks/tree/main/labs/historical-match) | Match a Premier League fixture to its closing prices in a Football-Data.co.uk season CSV. Includes an offline exercise and answer key. |
 | [parlayapi-notebooks](https://github.com/JacobiusMakes/parlayapi-notebooks) | Jupyter notebooks: no-vig pricing, EV, line movement, closing line value. One click Open in Colab |
 | [betting-model-starter](https://github.com/JacobiusMakes/betting-model-starter) | Template for a betting model: fetch odds and props, devig, scan edges, backtest closing line value |
 | [parlayapiR](https://github.com/JacobiusMakes/parlayapiR) | R client with devigging and Kelly sizing, keyless sandbox mode |
