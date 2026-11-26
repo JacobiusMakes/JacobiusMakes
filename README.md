@@ -36,7 +36,7 @@ If you're choosing a data provider, [compare two feeds on one fixture](https://g
 | [parlay-api-js](https://github.com/JacobiusMakes/parlay-api-js) | JavaScript/TypeScript SDK, zero dependencies |
 | [parlayapi-collections](https://github.com/JacobiusMakes/parlayapi-collections) | Ready-to-import collections for Bruno, Postman, Insomnia, and HTTPie |
 | [parlayapi-odds-action](https://github.com/JacobiusMakes/parlayapi-odds-action) | GitHub Action that pulls odds into JSON or CSV on a cron |
-| [parlayapi-sheets](https://github.com/JacobiusMakes/parlayapi-sheets) | Live odds, line shopping, and devig as Google Sheets formulas |
+| [parlayapi-sheets](https://github.com/JacobiusMakes/parlayapi-sheets) | Live odds and line shopping in Google Sheets. Try the [offline quote freshness workbook](https://github.com/JacobiusMakes/parlayapi-sheets/tree/main/workbooks/quote-freshness) with six practice quotes. |
 | [parlayapi-discord-bot](https://github.com/JacobiusMakes/parlayapi-discord-bot) | Self-hostable Discord bot: lines, moves, and a parlay checker |
 | [parlayapi-raycast](https://github.com/JacobiusMakes/parlayapi-raycast) | Raycast extension: best available lines and betting math from your launcher |
 | [parlayapi-obs-overlay](https://github.com/JacobiusMakes/parlayapi-obs-overlay) | OBS best-line ticker for betting streamers, one HTML file, keyless |
