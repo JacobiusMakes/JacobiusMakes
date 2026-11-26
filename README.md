@@ -6,9 +6,9 @@
 
 ## ParlayAPI: real-time sports odds for developers and AI agents
 
-[ParlayAPI](https://parlay-api.com) is a real-time sports odds API I built and run: 30+ sportsbooks, 90+ sport keys, player props, arbitrage detection, prediction markets, and closing lines with continuous history from 2005. The free tier is 1,000 credits per month, no card required, and the keyless demo endpoint (`GET https://parlay-api.com/v1/try/{sport}/odds`) needs no account at all. Start with the [docs](https://parlay-api.com/docs), [pricing](https://parlay-api.com/pricing), or the [MCP page](https://parlay-api.com/mcp).
+I built [ParlayAPI](https://parlay-api.com) for developers working with sportsbook odds, player props and prediction markets. Open the [NBA moneyline demo](https://parlay-api.com/v1/try/basketball_nba/odds) to see a JSON response without an API key. The free tier includes 1,000 credits per month. See the [API docs](https://parlay-api.com/docs) for a first request, [pricing](https://parlay-api.com/pricing) for the limits on each plan, or the [MCP guide](https://parlay-api.com/mcp) to connect an agent.
 
-Everything below is open source and works with the free tier.
+If you're choosing a data provider, [compare two feeds on one fixture](https://github.com/JacobiusMakes/awesome-sports-betting-data/blob/main/compare-odds-feeds.md). The example shows how two prices of 1.91 can refer to different markets. If you already have a sample, use the [evaluation lab](https://parlay-api.com/tools/evaluation-lab) to check a record against your required fields and plan a polling window. The lab works without an account or API key.
 
 **For agent builders**
 
